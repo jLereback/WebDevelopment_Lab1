@@ -1,0 +1,11 @@
+{
+  "ratings": {
+    "book1": { "stars": "4.47", "numOfRatings": "9,483,575" },
+    "book2": { "stars": "4.43", "numOfRatings": "3,689,868" },
+    "book3": { "stars": "4.58", "numOfRatings": "3,912,378" },
+    "book4": { "stars": "4.56", "numOfRatings": "3,482,613" },
+    "book5": { "stars": "4.50", "numOfRatings": "3,215,991" },
+    "book6": { "stars": "4.58", "numOfRatings": "3,112,505" },
+    "book7": { "stars": "4.62", "numOfRatings": "3,535,782" }
+  }
+}
