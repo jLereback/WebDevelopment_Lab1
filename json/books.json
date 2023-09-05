@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "image": "img/harry-potter-1.jpg",
+      "title": "Harry Potter and the Philosopher’s Stone",
+      "href": "book1.html",
+      "alt": "Book cover of Harry Potter and the Philosopher’s Stone"
+    },
+    {
+      "image": "img/harry-potter-2.jpg",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "href": "book2.html",
+      "alt": "Book cover of Harry Potter and the Chamber of Secrets"
+    },
+    {
+      "image": "img/harry-potter-3.jpg",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "href": "book3.html",
+      "alt": "Book cover of Harry Potter and the Prisoner of Azkaban"
+    },
+    {
+      "image": "img/harry-potter-4.jpg",
+      "title": "Harry Potter and the Goblet of Fire",
+      "href": "book4.html",
+      "alt": "Book cover of Harry Potter and the Goblet of Fire"
+    },
+    {
+      "image": "img/harry-potter-5.jpg",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "href": "book5.html",
+      "alt": "Book cover of Harry Potter and the Order of the Phoenix"
+    },
+    {
+      "image": "img/harry-potter-6.jpg",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "href": "book6.html",
+      "alt": "Book cover of Harry Potter and the Half-Blood Prince"
+    },
+    {
+      "image": "img/harry-potter-7.jpg",
+      "title": "Harry Potter and the Deathly Hallows",
+      "href": "book7.html",
+      "alt": "Book cover of Harry Potter and the Deathly Hallows"
+    }
+  ]
+}
