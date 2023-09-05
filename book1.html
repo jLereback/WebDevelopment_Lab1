@@ -15,28 +15,24 @@
   <article class="article">
     <p class="heading">Harry Potter and the Philosopher’s Stone</p>
     <p>
-      When a letter arrives for unhappy but ordinary Harry Potter, a
-      decade-old secret is revealed to him that apparently he's the last to
-      know. His parents were wizards, killed by a Dark Lord's curse when
-      Harry was just a baby, and which he somehow survived. Leaving his
-      unsympathetic aunt and uncle for Hogwarts, a wizarding school brimming
-      with ghosts and enchantments, Harry stumbles upon a sinister mystery
-      when he finds a three-headed dog guarding a room on the third floor.
-      Then he hears of a missing stone with astonishing powers which could
-      be valuable, dangerous - or both. An incredible adventure is about to
-      begin!
+      When a letter arrives for unhappy but ordinary Harry Potter, a decade-old secret is revealed to him that
+      apparently he's the last to know. His parents were wizards, killed by a Dark Lord's curse when Harry was just a
+      baby, and which he somehow survived. Leaving his unsympathetic aunt and uncle for Hogwarts, a wizarding school
+      brimming with ghosts and enchantments, Harry stumbles upon a sinister mystery when he finds a three-headed dog
+      guarding a room on the third floor. Then he hears of a missing stone with astonishing powers which could be
+      valuable, dangerous - or both. An incredible adventure is about to begin!
     </p>
   </article>
   <article>
     <h3>Rating</h3>
     <p id="stars1"></p>
-    <form action="#">
+    <form action="#" onsubmit="validateForm()">
       <div>
-      <label>Name:</label>
-        <input type="text" required value="">
+        <label for="rateName">Name:</label>
+        <input type="text" id="rateName">
       </div>
-      <label>Stars:</label>
-      <select name="stars" required>
+      <label for="stars">Stars:</label>
+      <select name="stars" id="stars" required>
         <option value=""></option>
         <option value="1">1</option>
         <option value="2">2</option>

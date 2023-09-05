@@ -30,3 +30,11 @@ fetch("json/rating.json")
     }
   })
   .catch((error) => console.error("Something went wrong"));
+
+
+function validateForm() {
+  const input = document.getElementById("rateName").value;
+  if (input === "") {
+    alert("Name must not be empty");
+  }
+}
