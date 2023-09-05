@@ -4,43 +4,50 @@
       "image": "img/harry-potter-1.jpg",
       "title": "Harry Potter and the Philosopher’s Stone",
       "href": "book1.html",
-      "alt": "Book cover of Harry Potter and the Philosopher’s Stone"
+      "alt": "Book cover of Harry Potter and the Philosopher’s Stone",
+      "bookInfo": "When a letter arrives for unhappy but ordinary Harry Potter, a decade-old secret is revealed to him that apparently he's the last to know. His parents were wizards, killed by a Dark Lord's curse when Harry was just a baby, and which he somehow survived. Leaving his unsympathetic aunt and uncle for Hogwarts, a wizarding school brimming with ghosts and enchantments, Harry stumbles upon a sinister mystery when he finds a three-headed dog guarding a room on the third floor. Then he hears of a missing stone with astonishing powers which could be valuable, dangerous - or both. An incredible adventure is about to begin!"
     },
     {
       "image": "img/harry-potter-2.jpg",
       "title": "Harry Potter and the Chamber of Secrets",
       "href": "book2.html",
-      "alt": "Book cover of Harry Potter and the Chamber of Secrets"
+      "alt": "Book cover of Harry Potter and the Chamber of Secrets",
+      "bookInfo": "Harry Potter can't wait for his holidays with the dire Dursleys to end. But a small, self-punishing house-elf warns Harry of mortal danger awaiting him at Hogwarts. Returning to the castle nevertheless, Harry hears a rumour about a Chamber of Secrets, holding unknown horrors for wizards of Muggle parentage. Now someone is casting spells that turn people to stone, and a terrible warning is found painted on the wall. The chief suspect - always in the wrong place - is Harry. But something much more terrifying has yet to be unleashed."
     },
     {
       "image": "img/harry-potter-3.jpg",
       "title": "Harry Potter and the Prisoner of Azkaban",
       "href": "book3.html",
-      "alt": "Book cover of Harry Potter and the Prisoner of Azkaban"
+      "alt": "Book cover of Harry Potter and the Prisoner of Azkaban",
+      "bookInfo": "Harry Potter is lucky to reach the age of thirteen, since he has survived the murderous attacks of the feared Dark Lord on more than one occasion. His hopes for a quiet school term concentrating on Quidditch are dashed, though, when a maniacal mass-murderer escapes from Azkaban, pursued by the soul-sucking Dementors who guard the prison. It's assumed that Hogwarts is the safest place for Harry to be. But is it his imagination that is making him feel eyes watching him in the dark, and should he be taking Professor Trelawney's ghoulish predictions seriously?"
     },
     {
       "image": "img/harry-potter-4.jpg",
       "title": "Harry Potter and the Goblet of Fire",
       "href": "book4.html",
-      "alt": "Book cover of Harry Potter and the Goblet of Fire"
+      "alt": "Book cover of Harry Potter and the Goblet of Fire",
+      "bookInfo": "When the Quidditch World Cup is disrupted by Voldemort's rampaging supporters and the terrifying Dark Mark appears against the night sky, it is obvious to Harry Potter that, far from weakening, Voldemort is getting stronger. Back at Hogwarts for the fourth year Harry is astonished to be chosen to represent the school in the Triwizard Tournament. The competition is dangerous, the tasks terrifying, and true courage is no guarantee of survival - especially with the Dark Lord's forces on the rise."
     },
     {
       "image": "img/harry-potter-5.jpg",
       "title": "Harry Potter and the Order of the Phoenix",
       "href": "book5.html",
-      "alt": "Book cover of Harry Potter and the Order of the Phoenix"
+      "alt": "Book cover of Harry Potter and the Order of the Phoenix",
+      "bookInfo": "Harry Potter is furious that he is stuck at the Dursleys' house for the summer, when he suspects that Voldemort is gathering an army, and the wizarding authorities seem unwilling to do anything. Harry's so-called friends are trying to keep him in the dark. But he knows that Voldemort's forces can find him wherever he is; he could be attacked at any moment. Harry is finally rescued from Privet Drive by members of the Order of the Phoenix - a secret society first formed years ago to fight Voldemort - and discovers that maybe he is not alone in this battle after all."
     },
     {
       "image": "img/harry-potter-6.jpg",
       "title": "Harry Potter and the Half-Blood Prince",
       "href": "book6.html",
-      "alt": "Book cover of Harry Potter and the Half-Blood Prince"
+      "alt": "Book cover of Harry Potter and the Half-Blood Prince",
+      "bookInfo": "As the Dark Lord's sinister forces amass, a spirit of gloom and fear is sweeping the land. Harry Potter waits nervously in his bedroom at the Dursleys' for Professor Dumbledore to arrive. One of the last times he saw the Headmaster was in a fierce duel with Voldemort at the Ministry of Magic. Why is the Professor coming to visit him now? What is it that cannot wait until Harry returns to Hogwarts? In his sixth year, Harry will discover the secret behind the Half-Blood Prince, as Professor Dumbledore prepares him to face his destiny."
     },
     {
       "image": "img/harry-potter-7.jpg",
       "title": "Harry Potter and the Deathly Hallows",
       "href": "book7.html",
-      "alt": "Book cover of Harry Potter and the Deathly Hallows"
+      "alt": "Book cover of Harry Potter and the Deathly Hallows",
+      "bookInfo": "Harry Potter is preparing to leave the Dursleys and Privet Drive for the last time. But the future that awaits him is full of danger, not only for him, but for anyone close to him - and Harry has already lost so much. Only by destroying Voldemort's remaining Horcruxes can Harry free himself and overcome the Dark Lord's forces of evil. In this dramatic conclusion to the Harry Potter series, Harry must leave his most loyal friends behind, and in a final perilous journey find the strength and the will to face his terrifying destiny: a deadly confrontation that is his alone to fight."
     }
   ]
 }
