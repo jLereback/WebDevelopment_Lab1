@@ -59,6 +59,12 @@ main article a img {
   margin: 0px;
 }
 
+main article a img:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s;
+}
+
+
 .heading {
   font-size: x-large;
   font-weight: bold;
