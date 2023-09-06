@@ -6,24 +6,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Harry Potter and the Prisoner of Azkaban</title>
 </head>
-<body class="background_std">
-<header>
-  <a href="index.html">HARRY POTTER</a>
+<body class="background_std" onload="onLoad()">
+<header class="header">
+  <script src="js/header_background.js"></script>
 </header>
 <main>
   <img src="img/harry-potter-3.jpg"/>
-  <article>
-    <p class="heading">Harry Potter and the Prisoner of Azkaban</p>
-    <p>
-      Harry Potter is lucky to reach the age of thirteen, since he has survived the murderous attacks of the feared Dark
-      Lord on more than one occasion. His hopes for a quiet school term concentrating on Quidditch are dashed, though,
-      when a maniacal mass-murderer escapes from Azkaban, pursued by the soul-sucking Dementors who guard the prison.
-      It's assumed that Hogwarts is the safest place for Harry to be. But is it his imagination that is making him feel
-      eyes watching him in the dark, and should he be taking Professor Trelawney's ghoulish predictions seriously?
-    </p>
-    <h3>Rating</h3>
-    <p id="stars3"></p>
-  </article>
+  <section class="section">
+
+    <article>
+      <p class="heading">Harry Potter and the Prisoner of Azkaban</p>
+      <p>
+        Harry Potter is lucky to reach the age of thirteen, since he has survived the murderous attacks of the feared
+        Dark
+        Lord on more than one occasion. His hopes for a quiet school term concentrating on Quidditch are dashed, though,
+        when a maniacal mass-murderer escapes from Azkaban, pursued by the soul-sucking Dementors who guard the prison.
+        It's assumed that Hogwarts is the safest place for Harry to be. But is it his imagination that is making him
+        feel
+        eyes watching him in the dark, and should he be taking Professor Trelawney's ghoulish predictions seriously?
+      </p>
+    </article>
+    <article>
+      <h3>Rating</h3>
+      <p id="stars1"></p>
+      <form action="#" onsubmit="validateForm()">
+        <div>
+          <label for="rateName">Name:</label>
+          <input type="text" id="rateName">
+        </div>
+        <label for="stars">Stars:</label>
+        <select name="stars" id="stars" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <button>Rate</button>
+      </form>
+    </article>
+  </section>
   <script src="js/rating.js"></script>
 </main>
 </body>

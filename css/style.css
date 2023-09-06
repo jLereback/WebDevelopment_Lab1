@@ -25,6 +25,10 @@ header section {
   margin-inline-end: 0.5em;
 }
 
+label {
+  margin-inline-end: 0.5em;
+}
+
 header a {
   margin-inline-start: 0.5em;
   font-size: xx-large;
@@ -75,6 +79,11 @@ main article a img:hover {
   transition: transform 0.2s;
 }
 
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .heading {
   font-size: x-large;
@@ -92,6 +101,13 @@ main article a img:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 

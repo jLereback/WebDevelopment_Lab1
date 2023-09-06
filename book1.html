@@ -6,43 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Harry Potter and the Philosopher’s Stone</title>
 </head>
-<body class="background_std">
-<header>
-  <a href="index.html">HARRY POTTER</a>
+<body class="background_std" onload="onLoad()">
+<header class="header">
+  <script src="js/header_background.js"></script>
 </header>
 <main>
   <img src="img/harry-potter-1.jpg"/>
-  <article class="article">
-    <p class="heading">Harry Potter and the Philosopher’s Stone</p>
-    <p>
-      When a letter arrives for unhappy but ordinary Harry Potter, a decade-old secret is revealed to him that
-      apparently he's the last to know. His parents were wizards, killed by a Dark Lord's curse when Harry was just a
-      baby, and which he somehow survived. Leaving his unsympathetic aunt and uncle for Hogwarts, a wizarding school
-      brimming with ghosts and enchantments, Harry stumbles upon a sinister mystery when he finds a three-headed dog
-      guarding a room on the third floor. Then he hears of a missing stone with astonishing powers which could be
-      valuable, dangerous - or both. An incredible adventure is about to begin!
-    </p>
-  </article>
-  <article>
-    <h3>Rating</h3>
-    <p id="stars1"></p>
-    <form action="#" onsubmit="validateForm()">
-      <div>
-        <label for="rateName">Name:</label>
-        <input type="text" id="rateName">
-      </div>
-      <label for="stars">Stars:</label>
-      <select name="stars" id="stars" required>
-        <option value=""></option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-      </select>
-      <button>Rate</button>
-    </form>
-  </article>
+  <section class="section">
+    <article>
+      <p class="heading">Harry Potter and the Philosopher’s Stone</p>
+      <p>
+        When a letter arrives for unhappy but ordinary Harry Potter, a decade-old secret is revealed to him that
+        apparently he's the last to know. His parents were wizards, killed by a Dark Lord's curse when Harry was just a
+        baby, and which he somehow survived. Leaving his unsympathetic aunt and uncle for Hogwarts, a wizarding school
+        brimming with ghosts and enchantments, Harry stumbles upon a sinister mystery when he finds a three-headed dog
+        guarding a room on the third floor. Then he hears of a missing stone with astonishing powers which could be
+        valuable, dangerous - or both. An incredible adventure is about to begin!
+      </p>
+    </article>
+    <article>
+      <h3>Rating</h3>
+      <p id="stars1"></p>
+      <form action="#" onsubmit="validateForm()">
+        <div>
+          <label for="rateName">Name:</label>
+          <input type="text" id="rateName">
+        </div>
+        <label for="stars">Stars:</label>
+        <select name="stars" id="stars" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <button>Rate</button>
+      </form>
+    </article>
+  </section>
   <script src="js/rating.js"></script>
 </main>
 </body>

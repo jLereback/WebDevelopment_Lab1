@@ -6,24 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Harry Potter and the Chamber of Secrets</title>
 </head>
-<body class="background_std">
-<header>
-  <a href="index.html">HARRY POTTER</a>
+<body class="background_std" onload="onLoad()">
+<header class="header">
+  <script src="js/header_background.js"></script>
 </header>
 <main>
   <img src="img/harry-potter-2.jpg"/>
-  <article>
-    <p class="heading">Harry Potter and the Chamber of Secrets</p>
-    <p>
-      Harry Potter can't wait for his holidays with the dire Dursleys to end. But a small, self-punishing house-elf
-      warns Harry of mortal danger awaiting him at Hogwarts. Returning to the castle nevertheless, Harry hears a rumour
-      about a Chamber of Secrets, holding unknown horrors for wizards of Muggle parentage. Now someone is casting spells
-      that turn people to stone, and a terrible warning is found painted on the wall. The chief suspect - always in the
-      wrong place - is Harry. But something much more terrifying has yet to be unleashed.
-    </p>
-    <h3>Rating</h3>
-    <p id="stars2"></p>
-  </article>
+  <section class="section">
+    <article>
+      <p class="heading">Harry Potter and the Chamber of Secrets</p>
+      <p>
+        Harry Potter can't wait for his holidays with the dire Dursleys to end. But a small, self-punishing house-elf
+        warns Harry of mortal danger awaiting him at Hogwarts. Returning to the castle nevertheless, Harry hears a
+        rumour about a Chamber of Secrets, holding unknown horrors for wizards of Muggle parentage. Now someone is
+        casting spells that turn people to stone, and a terrible warning is found painted on the wall. The chief suspect
+        - always in the wrong place - is Harry. But something much more terrifying has yet to be unleashed.
+      </p>
+    </article>
+    <article>
+      <h3>Rating</h3>
+      <p id="stars1"></p>
+      <form action="#" onsubmit="validateForm()">
+        <div>
+          <label for="rateName">Name:</label>
+          <input type="text" id="rateName">
+        </div>
+        <label for="stars">Stars:</label>
+        <select name="stars" id="stars" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <button>Rate</button>
+      </form>
+    </article>
+  </section>
+
   <script src="js/rating.js"></script>
 </main>
 </body>
