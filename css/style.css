@@ -1,7 +1,15 @@
 body {
   margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.background_std {
   background-color: #a4a69c;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.background_wht {
+  background-color: white;
 }
 
 header {
@@ -12,6 +20,10 @@ header {
   height: 50px;
   margin-bottom: 5px;
   column-gap: 10px;
+}
+
+header section {
+  margin-inline-end: 0.5em;
 }
 
 header a {
@@ -68,6 +80,10 @@ main article a img:hover {
 .heading {
   font-size: x-large;
   font-weight: bold;
+}
+
+.color {
+  color: #bfbfb8;
 }
 
 /*Tablet*/

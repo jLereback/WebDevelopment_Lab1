@@ -6,9 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Harry Potter Series</title>
 </head>
-<body>
+<body class="background_std" onload="onLoad()">
 <header>
   <a href="">HARRY POTTER</a>
+  <section class="color">
+      <label for="color">Background color:</label>
+      <select name="Color" id="color" onchange="updateBackground()" required>
+        <option value="background_std">Standard</option>
+        <option value="background_wht">White</option>
+      </select>
+  </section>
 </header>
 <main class="books">
   <script src="js/books.js"></script>
