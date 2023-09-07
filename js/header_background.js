@@ -22,14 +22,18 @@ document.addEventListener("DOMContentLoaded", function () {
     option1.textContent = "Standard";
 
     const option2 = document.createElement("option");
-    option2.value = "background_wht";
-    option2.textContent = "White";
+    option2.value = "background_dark";
+    option2.textContent = "Dark (experimental)";
+
+    const option3 = document.createElement("option");
+    option3.value = "background_light";
+    option3.textContent = "Light";
 
     section.appendChild(label);
     section.appendChild(select);
     select.appendChild(option1);
     select.appendChild(option2);
-
+    select.appendChild(option3);
 
     headerContainer.appendChild(a);
     headerContainer.appendChild(section);
@@ -42,7 +46,7 @@ function updateBackground() {
 }
 
 function setBackground(color) {
-    document.body.classList.remove("background_std", "background_wht")
+    document.body.classList.remove("background_std", "background_dark", "background_light")
     document.body.classList.add(color);
 }
 
