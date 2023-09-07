@@ -29,7 +29,7 @@ fetch("json/rating.json")
             stars7.textContent = "⭐ " + ratings.book7.stars + " · " + ratings.book7.numOfRatings + " ratings";
         }
     })
-    .catch((error) => console.error("Something went wrong"));
+    .catch((error) => console.error("Something went wrong - " + error));
 
 
 function validateForm() {
