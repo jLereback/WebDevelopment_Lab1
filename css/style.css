@@ -71,7 +71,7 @@ main img {
 }
 
 main article a img {
-  margin: 0px;
+  margin: 0;
 }
 
 main article a img:hover {
