@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const label = document.createElement("label");
     label.htmlFor = "color";
-    label.textContent = "Background color:"
+    label.textContent = "Background:"
 
     const select = document.createElement("select");
     select.name = "Color";

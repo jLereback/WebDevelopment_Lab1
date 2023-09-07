@@ -119,4 +119,18 @@ main article a img:hover {
     flex-wrap: wrap;
     flex-direction: row;
   }
+
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  header section {
+    margin-bottom: 5px;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
 }
+
